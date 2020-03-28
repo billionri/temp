@@ -1,0 +1,279 @@
+
+body,html {
+	font-family: Source Sans Pro, sans-serif;
+			background-image: none;
+		background-repeat: repeat;
+		background-size: auto;
+	background-color: #F2F2F2;
+}
+.form-header {
+	background-color: #6666FF;
+		border-bottom-width: 0px;
+			height: auto;
+}
+.form-header.roundedCorners {
+}
+/*	Header colors  */
+.header-bg {
+    	background-repeat : no-repeat;
+    	background-size: auto;
+	opacity: 1;
+}
+.header-branding {
+	font-size: 26px;
+}
+.header-title {
+	font-family: Source Sans Pro, sans-serif;
+	color: #FFFFFF;
+}
+.header-logo {
+	width: 120px;
+}
+/*	Form Page colors  */
+.form-page {
+	background-color: #FFFFFF;
+		box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000000;
+}
+.pageTitleDesc .pageTitle{
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 22px;
+}
+.pageTitleDesc .pageDesc{
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 19px;
+}
+.pageTitleDesc {
+	border-bottom-color: #000000;
+	color: #000000;
+}
+.leftAlignDesc .pageTitleDesc {
+	text-align: left;
+}
+.rightAlignDesc .pageTitleDesc {
+	text-align: right;
+}
+.protectedMsg, .surveyQuestion .questionText, .protectedMsg, .surveyQuestion .qNos, .publicMessage {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 20px;
+	color: #333333;
+}
+.btnHint {
+	border-color: #333333;
+	color: #333333;
+}
+.surveyQuestion .choiceLabel, .surveyQuestion .postLabel, .surveyQuestion .matrixChoice .flex .flexItem, .surveyQuestion .matrix .matrixRowMessage, .surveyQuestion .nps .btn-rating, .surveyQuestion .zsSelector .btn .value, .surveyQuestion .zsSelector .dropItem .itemLink, .surveyQuestion .zsSelector .dropItem.selected .itemLink, .surveyQuestion .ratingLikert.matrix .likertRowQuestion .likertMatQuest, .surveyQuestion .uploader .fileName, .surveyQuestion .slider .range, .surveyQuestion .slider .amountIndicator,.surveyQuestion .ratingWeightage .weightage, .surveyQuestion .ratingLikert .ratingValue, .surveyQuestion .topLabel, .surveyQuestion .digiSign .padContainer .responderName .lbl, .surveyQuestion .matrixRowColCombo .rowLabel, .surveyQuestion .zsSelectorFaux, .surveyQuestion .matrixChoice.mediaMode .matrixRowColCombo .rowLabel, .surveyQuestion .zsSelectorFaux .zsSelectorMedia {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 17px;
+	color: #86888A;
+}
+.imgCounter, .imgLbl {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 17px;
+}
+/*	Field BG color	*/
+.surveyQuestion .zsRadio .zsRadioFaux, .surveyQuestion .zsCheckbox .zsCheckboxFaux, .surveyQuestion .ratingLikert .zsRadio .likertRadioFaux, .surveyQuestion .ratingWeightage .zsRadio .weightageRadioFaux, .surveyQuestion .zsSelector .btn, .surveyQuestion .dropdown-menu, .surveyQuestion .nps .btn-rating, .surveyQuestion .nps .btn-rating:first-child, .surveyQuestion .slider .ui-slider, .surveyQuestion .zsSelectorFaux, .surveyQuestion .zsSelectorMedia option{
+	background-color: #FFFFFF;
+}
+.surveyQuestion .star .starIconVector {
+	fill: #FFFFFF;
+}
+/*	Field Border color	*/
+.surveyQuestion .zsRadio .zsRadioFaux, .surveyQuestion .zsCheckbox .zsCheckboxFaux, .surveyQuestion .ratingLikert .zsRadio .likertRadioFaux, .surveyQuestion .ratingWeightage .zsRadio .weightageRadioFaux, .surveyQuestion .zsSelector .btn, .surveyQuestion .dropdown-menu, .surveyQuestion .nps .btn-rating, .surveyQuestion .nps .btn-rating:first-child, .surveyQuestion .nps .npsBoxNAInput, .surveyQuestion .digiSign .padContainer .signature-pad, .surveyQuestion .zsSelectorFaux {
+	border-color: #CCCCCC;
+}
+.surveyQuestion .star .starIconVector {
+	stroke: #CCCCCC;
+}
+/*	Field Hover color	*/
+.passwordField:hover, .surveyQuestion .inTextbox:hover, .surveyQuestion .zsSelector .btn:hover, .surveyQuestion .additionalField .cmtTxtArea:hover, .surveyQuestion .essayTxtArea:hover, .surveyQuestion .txtOtherChoice:hover, .surveyQuestion .calendar .calendarText:hover, .captchaIO .captchaField:hover, .surveyQuestion .zsCheckbox:hover .zsCheckboxFaux, .surveyQuestion .zsRadio:hover .zsRadioFaux, .open .dropdown-menu li:hover, .surveyQuestion .ratingLikert .zsRadio .likertRadioFaux:hover, .surveyQuestion .ratingWeightage .zsRadio:hover .weightageRadioFaux {
+	border-color: #666666;
+}
+/*.surveyQuestion .star.hovered .starIconVector {
+	stroke: #666666;
+	fill: #666666;
+}*/
+/*	Field Selection BG color  */
+.passwordField:focus, .passwordField:focus:hover, .surveyQuestion .inTextbox:focus, .surveyQuestion .inTextbox:focus:hover, .surveyQuestion .zsSelector .btn:focus, .surveyQuestion .zsSelector .btn:focus:hover, .surveyQuestion .additionalField .cmtTxtArea:focus, .surveyQuestion .additionalField .cmtTxtArea:focus:hover, .surveyQuestion .essayTxtArea:focus, .surveyQuestion .essayTxtArea:focus:hover, .surveyQuestion .txtOtherChoice:focus, .surveyQuestion .txtOtherChoice:focus:hover, .surveyQuestion .calendar .calendarText:focus, .surveyQuestion .calendar .calendarText:focus:hover, .captchaIO .captchaField:focus, .captchaIO .captchaField:focus:hover {
+	border-color: #FF6699;
+}
+.surveyQuestion .zsCheckbox [type="checkbox"]:checked + .zsCheckboxFaux, .surveyQuestion .zsCheckbox [type="checkbox"]:checked:hover + .zsCheckboxFaux, .surveyQuestion .zsRadio [type="radio"]:checked + .zsRadioFaux, .surveyQuestion .zsRadio [type="radio"]:checked:hover + .zsRadioFaux {
+	background-color: #FF6699;
+	border-color: #FF6699;
+}
+.surveyQuestion .star.hovered .starIconVector, .surveyQuestion .star.selected .starIconVector {
+	fill: #FF6699;
+	stroke: #FF6699;
+}
+.surveyQuestion .ratingLikert [type="radio"]:checked + .likertRadioFaux {
+	border-color: #FF6699;
+	box-shadow: 0 0 1px 15px #FF6699 inset;
+}
+.surveyQuestion .ratingWeightage .zsRadio [type="radio"]:checked + .weightageRadioFaux {
+	border-color: #FF6699;
+	box-shadow: 0 0 1px 15px #FF6699 inset;
+}
+.surveyQuestion .nps .btn-rating.active, .surveyQuestion .nps .btn-rating:first-child.active {
+	border: 1px #FF6699 solid;
+	box-shadow: 230px 0 0 0 #FF6699 inset;
+ }
+.surveyQuestion .uploader .fileContainer.hasFile .fileName {
+	color: #FF6699;
+}
+.ui-datepicker td a.ui-state-default.ui-state-active, .ui-datepicker td span.ui-state-default.ui-state-active {
+	background: #FF6699;
+}
+/*	Field Selection Tick color  */
+ .surveyQuestion .zsCheckbox [type="checkbox"]:checked + .zsCheckboxFaux::after, .surveyQuestion .zsRadio [type="radio"]:checked + .zsRadioFaux::after {
+	border-top-color: #FFFFFF;
+ 	border-right-color: #FFFFFF;
+ }
+ .surveyQuestion .ratingLikert [type="radio"]:checked + .likertRadioFaux .ratingValue, .surveyQuestion .ratingWeightage .zsRadio [type="radio"]:checked + .weightageRadioFaux .weightage, .surveyQuestion .nps .btn-rating.active {
+	color: #FFFFFF;
+ }
+/*	Text Field color  */
+.passwordField, .surveyQuestion .inTextbox, .surveyQuestion .txtOtherChoice, .surveyQuestion .essayTxtArea, .surveyQuestion .cmtTxtArea, .surveyQuestion .additionalField .cmtTxtArea, .surveyQuestion .calendar .calendarText, .captchaIO .captchaField {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 17px;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	background-color: #FFFFFF;
+	color: #666666;
+}
+.response-form .questionsList .surveyQuestion {
+		border-bottom: none
+}
+.surveyQuestion {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/*.surveyQuestion .slider .ui-slider {
+	background-color: #FFFFFF;
+}*/
+/*	Slider Question colors  */
+.surveyQuestion .slider .ui-slider {
+	box-shadow: 0 0 0 1px #CCCCCC inset;
+	-webkit-box-shadow: 0 0 0 1px #CCCCCC inset;
+	-moz-box-shadow: 0 0 0 1px #CCCCCC inset;
+	-ms-box-shadow: 0 0 0 1px #CCCCCC inset;
+}
+.surveyQuestion .slider .ui-slider-handle.ui-state-active {
+	box-shadow: 0 0 0 12px rgba(255, 102, 152, 0.25);
+}
+.surveyQuestion .slider .ui-slider-range {
+	background-color: #FF6699;
+}
+.surveyQuestion .slider .ui-slider-handle {
+	border-color: #FF6699;
+}
+.surveyQuestion .slider .amountIndicator, .surveyQuestion .slider .caretPointer {
+	background-color: #FF6699;
+}
+.surveyQuestion .slider .amountIndicator {
+	color: #FFFFFF;
+}
+/*	Progress Bar colors  */
+.progressSection .currentPage, .progressSection .progressLevel {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 20px;
+	color: #86888A;
+}
+.progressSection .progress {
+	background-color: #E4E4E4;
+}
+.progressSection .progress-bar {
+	background-color: #404040;
+}
+/*	Form Button colors  */
+.btnFormAction {
+	font-family: Source Sans Pro, sans-serif;;
+	font-size: 14px;
+	border-width: 0px;
+	border-style: solid;
+}
+.btnFormAction.unlockForm, .btnFormAction.submit {
+	background-color: rgba(51,204,153,1);
+	color: #FFFFFF;
+	border-color: #000000;
+}
+.btnFormAction.previous {
+	background-color: rgba(51,204,153,1);
+	color: #FFFFFF;
+	border-color: #000000;
+}
+.btnFormAction.next {
+	background-color: rgba(51,204,153,1);
+	color: #FFFFFF;
+	border-color: #000000;
+}
+/*	Footer colors  */
+.form-footer {
+	background-color: rgba(250,251,251,1);
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #EBEBEB;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+/* Intercept view properties */
+.cardContainer .form-header {
+	min-height: 70px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.cardContainer .form-page {
+	position: fixed;
+    height: calc(100% - 64px);
+    overflow: auto;
+    width: 100%;
+}
+.cardContainer .questionsList .surveyQuestion {
+	border-bottom-width: 0;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.cardContainer .surveyQuestion .qNos, .cardContainer .surveyQuestion .questionText {
+	font-size: 18px !important;
+}
+.cardContainer .passwordField, .cardContainer .surveyQuestion .inTextbox, .cardContainer .surveyQuestion .txtOtherChoice, .cardContainer .surveyQuestion .essayTxtArea, .cardContainer .surveyQuestion .cmtTxtArea, .cardContainer .surveyQuestion .additionalField .cmtTxtArea, .cardContainer .surveyQuestion .calendar .calendarText, .cardContainer .captchaIO .captchaField {
+	border-width: 1px;
+	border-radius: 0;
+}
+.cardContainer .PrevNext {
+		background-color: #FFFFFF;
+		border-top: 1px solid #EEEEEE;
+}
+.cardContainer .btnFormAction.unlockForm, .cardContainer .btnFormAction.submit {
+	border-width: 0;
+	font-size: 14px;
+		background-color: rgb(51,204,153);
+}
+.cardContainer .PrevNext .previous {
+	color: #333333;
+	font-family: Source Sans Pro, sans-serif;;
+}
+.cardContainer .PrevNext .prevIconVector {
+	fill: #333333;
+}
+.cardContainer .PrevNext .next {
+	color: #333333;
+	font-family: Source Sans Pro, sans-serif;;
+}
+.cardContainer .PrevNext .nextIconVector {
+	fill: #333333;
+}
+/* $Id$ */
+@charset "UTF-8";
+/* Basic theme for response form */
+body, html {
+	background-attachment: fixed; /* Fixed on non-repeating background image */
+}
+
+/*Drop down item hover*/
+.open .dropdown-menu li:hover, .open .dropdown-menu li.keyHover {
+	background-color: rgba(255, 102, 152, 0.25);
+}
